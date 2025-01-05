@@ -1,0 +1,597 @@
+/* About Me Desktop */
+body {
+    /* background-color: #FAF1E4; */
+    background-image: url(images/Desktop\ -\ 1.png)
+}
+
+header {
+    width: 1200px;
+    height: 100px;
+    background-color: #FAF1E4;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    flex: 1;
+    text-align: left;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+    font-family: "Italiana", sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+}
+
+nav {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbutton {
+    margin-left: 150px;
+}
+
+.navbutton :hover {
+    text-decoration: underline;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+
+.works-nav {
+    display: none;
+}
+
+.work:hover .works-nav {
+    display: block;
+    position: absolute;
+    padding-top: 20px;
+}
+
+.mybuttonw {
+    display: block;
+    padding: 10px 15px;
+    border: 1px black solid;
+    margin-left: -30px;
+    background-color: #FAF1E4;
+}
+
+.mybuttonw:hover {
+    background-color: #9C9074;
+}
+
+.mob-wrapper {
+    display: none;
+}
+
+.a1 {
+    font-weight: 600;
+}
+
+.mob-wrapper {
+    display: none;
+}
+
+.container {
+    width: 1200px;
+    min-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    width: 1200px;
+    height: 600px;
+    background-color: #9C9074;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.name {
+    flex: 1;
+    margin-top: auto;
+    margin-bottom: auto;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* 初始透明 */
+    }
+    to {
+        opacity: 1; /* 完全顯示 */
+    }
+}
+
+.name h1 {
+    font-family: "Italiana", sans-serif;
+    font-size: 8rem;
+    color: white;
+    text-align: center;
+}
+
+hr {
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.name h2 {
+    font-family: "Italiana", sans-serif;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+.pic {
+    flex: 1;
+    margin-top: auto;
+    margin-bottom: auto;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.pic img {
+    margin-right: -15px;
+}
+
+.mob-main {
+    display: none;
+}
+
+.about-me-title {
+    font-family: "Italiana", sans-serif;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.am-box {
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.ambox1 {
+    flex: 0.55;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+.abp1 {
+    width: 180px;
+    height: 380px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.74);
+}
+
+.abp2 {
+    width: 180px;
+    height: 380px;
+    margin-top: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.74);
+}
+
+.abp3 {
+    width: 180px;
+    height: 380px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.74);
+}
+
+.ambox2 {
+    flex: 0.45;
+    width: 539px;
+    text-align: center;
+
+}
+
+.self-introduction {
+    font-size: 1.5rem;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-weight: 300;
+    line-height: 40px;
+    word-spacing: 4px;
+    padding: 30px;
+    align-items: center;
+    text-align: left;
+    color: white;
+    background-color: #8E482D;
+    margin-bottom: 50px;
+}
+
+.sm-button {
+    text-decoration: none;
+    color: white;
+    background-color: #9C9074;
+    font-size: 1.5rem;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-weight: 300;
+    padding: 20px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sm-button:hover {
+    background-color: #8E482D;
+}
+
+.edc-box {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 70px;
+}
+
+.edu {
+    flex: 1;
+    height: 300px;
+    /* background-color: rgb(141, 125, 125); */
+    margin-right: 100px;
+}
+
+.edu h2 {
+    font-family: "Italiana", sans-serif;
+    font-size: 3rem;
+    margin-bottom: 25px;
+}
+
+.edu a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+    text-decoration: underline;
+}
+
+.edu a:hover {
+    color: blue;
+}
+
+.edu p {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.ct {
+    flex: 1;
+    height: 300px;
+}
+
+.ct h2 {
+    font-family: "Italiana", sans-serif;
+    font-size: 3rem;
+    margin-bottom: 25px;
+}
+
+.textarea1 {
+    width: 550px;
+    height: 35px;
+    font-size: 1.5rem;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+    border-radius: 10px;
+    border: 0px;
+    
+}
+
+textarea {
+    width: 550px;
+    height: 130px;
+    font-size: 1.5rem;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.icon-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.b1 {
+    flex: 2;
+}
+
+.b1-2 {
+    font-size: 1.5rem;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-weight: 300;
+    color: white;
+    background-color: #9C9074;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 0px;
+}
+
+.b1-2:hover {
+    background-color: #8E482D;
+}
+
+.b234 {
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.mail {
+    font-size: 50px;
+    color: #9C9074;
+}
+
+.ig {
+    font-size: 50px;
+    color: #9C9074;
+}
+
+.fb {
+    font-size: 50px;
+    color: #9C9074;
+}
+
+.web-use {
+    margin-bottom: 30px;
+}
+
+.web-use h2 {
+    font-family: "Italiana", sans-serif;
+    font-size: 3rem;
+    margin-bottom: 25px;
+}
+
+.web-use p {
+    color: black;
+    font-size: 1.5rem;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-weight: 300;
+    line-height: 50px;
+    word-spacing: 5px;
+}
+
+footer {
+    display: flex;
+    height: 100px;
+    background-color: #FAF1E4;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color: black;
+    font-size: 1.5rem;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-weight: 300;
+    line-height: 50px;
+    word-spacing: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* THis is mobile view */
+@media screen and (max-width: 500px) {
+    .container {
+        width: 500px;
+    }
+
+    header {
+        width: 500px;
+        height: 70px;
+        background-color: #FAF1E4;
+        display: flex;
+    }
+
+    nav {
+        display: none;
+    }
+    
+    .logo {
+        flex: 2;
+        text-align: center;
+    }
+
+    .logo a {
+        text-decoration: none;
+        color: black;
+        font-family: "Italiana", sans-serif;
+        font-size: 1rem;
+        letter-spacing: 3px;
+        word-spacing: 2px;
+    }
+
+    .mob-wrapper {
+        flex: 1;
+        display: inline-block;
+        text-align: right;
+        margin-right: 30px;
+    }
+
+    .mob-nav {
+        display: block;
+        display: none;
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+
+    .mob-nav a {
+        font-size: 1rem;
+        display: block;
+        text-align: center;
+        padding: 10px 15px;
+        color: black;
+        letter-spacing: 1px;
+        background-color: #FAF1E4;
+        border: 1px solid black;
+        margin-bottom: 10px;
+    }
+
+    .mob-nav :active {
+        background-color: #9C9074;
+    }
+
+    main {
+        display: none;
+    }
+
+    .mob-main {
+        display: flex;
+        height: 300px;
+        width: 500px;
+        flex-direction: column;
+    }
+
+    .mob-pic {
+        flex: 2;
+    }
+
+    .mob-pic img {
+        width: 500px;
+        height: auto;
+    }
+
+    .mob-edu {
+        flex: 1;
+        width: 500px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .edu-icon {
+        flex: 1;
+    }
+
+    .school {
+        font-size: 70px;
+        margin-left: 20px;
+        color: #9C9074;
+    }
+
+    .edu-link {
+        flex: 3;
+    }
+
+    .edu-link a {
+        text-decoration: none;
+        color: black;
+        font-size: 1rem;
+        font-family: "Kantumruy Pro", sans-serif;
+        font-weight: 300;
+        line-height: 30px;
+        word-spacing: 3px;
+        margin-left: -10px;
+        text-decoration: underline;
+    }
+
+    .about-me-title {
+        font-size: 1rem;
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }
+
+    .am-box {
+        width: 500px;
+        height: 200px;
+    }
+
+    .ambox1 {
+        display: none;
+    }
+
+    .ambox2 {
+        width: 500px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .self-introduction {
+        width: 385px;
+        height: auto;
+        font-size: 0.75rem;
+        line-height: 20px;
+        letter-spacing: 1px;
+        margin-bottom: 25px;
+        padding: 25px;
+    }
+
+    .sm-button {
+        font-size: 1rem;
+        padding: 10px 15px;
+    }
+
+    .edc-box {
+        display: none;
+    }
+    
+    .web-use-bg {
+        background-color: #FAF6ED;
+        padding-top: 30px;
+    }
+
+    .web-use {
+        width: 500px;
+        margin-top: -20px;
+        margin-bottom: 10px;
+    }
+
+    .web-use h2 {
+        font-size: 1rem;
+        margin-left: 30px;
+    }
+
+    .web-use p {
+        font-size: 0.75rem;
+        word-spacing: 3px;
+        line-height: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: -10px;
+    }
+
+    footer {
+        width: 500px;
+        height: 50px;
+    }
+
+    footer p {
+        font-size: 0.75rem;
+    }
+
+    .mail {
+        font-size: 20px;
+        margin-right: 30px;
+    }
+
+    .ig {
+        font-size: 20px;
+        margin-left: 30px;
+    }
+}
